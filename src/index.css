@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Agregar a tu archivo CSS si usas uno */
+.footer-gradient {
+  background: linear-gradient(
+    180deg, 
+    rgba(23, 37, 84, 0.8) 0%, 
+    rgba(49, 46, 129, 0.6) 50%, 
+    rgba(124, 58, 237, 0.4) 100%
+  );
+}
