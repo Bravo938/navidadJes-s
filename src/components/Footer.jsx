@@ -201,11 +201,7 @@ const Footer = () => {
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 className="relative w-10 h-10"
               >
-                <img 
-                  src={rdvLogo} 
-                  alt="Logo pequeño" 
-                  className="w-full h-full object-contain"
-                />
+               
               </motion.div>
               <Heart className="w-6 h-6 text-red-400 fill-red-400 animate-pulse" />
             </div>
